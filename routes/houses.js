@@ -4,8 +4,7 @@ var mongoose = require('mongoose')
 
 // WHAT IS A HOUSE?
 
-// SCHEMA === CLASS
-
+// SCHEMA === CLASS BCW ACCOUNT
 var houseSchema = new mongoose.Schema({
 	description: { type: String, required: true },
 	sqft: { type: Number, required: true },
